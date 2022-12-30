@@ -1,6 +1,6 @@
 # React_Redux_RTQ_Project_Movies-Search
  
-![alt text]https://github.com/AntonioMikhailov/AntonioMikhailov/blob/main/assets/notes.jpg)
+![alt text](https://github.com/AntonioMikhailov/AntonioMikhailov/blob/main/assets/notes.jpg)
 ## Задача
 1.	Создать приложение: Планировщик дел  (создание Заметок) 
 2.	Реализовать возможность сохранения Заметок после перезагрузки браузера посредстом localSrorage
