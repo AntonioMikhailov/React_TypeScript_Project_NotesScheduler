@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // let a = new Date().getDate().getMonth()
+    let a = new Date() 
+    console.log(a); // Wed Dec 28 2022 18:57:23 GMT+0300 (Москва, стандартное время)
+    console.log(new Intl.DateTimeFormat().format(a)); // 28.12.2022
+console.log( new Date().setFullYear(2022, 01, 11));
+
+let n  = new Date(); // сегодня Fri Feb 11 2022
+let setYear = n.setFullYear(2012, 05,10); // меняем год, месяц и день ТЕКУЩЕЙ ДАТЫ
+console.log(new Date(setYear)); // Sun Jun 10 2012 
+
+// var dateObj = new Date();
+// var month = dateObj.getUTCMonth() + 1; //months from 1-12
+// var day = dateObj.getUTCDate();
+// var year = dateObj.getUTCFullYear();
+// newdate = year + "/" + month + "/" + day;
+// console.log(newdate); // 2022/12/28
+
+// var date = new Date( ); // сегодня))
+// var formatter = new Intl.DateTimeFormat("en", {
+// weekday: "long",
+// year: "numeric",
+// month: "long",
+// day: "numeric",
+// hour: 'numeric',
+//  minute: 'numeric',
+//  second: 'numeric',
+// });
+// console.log( formatter.format(date) ); //среда, 28 декабря 2022 г.
+
+
+
+// new Date().toISOString()
+// //"2016-02-18T23:59:48.039Z"
+// new Date().toISOString().split('T')[0];
+// //"2016-02-18"
+// new Date().toISOString().replace('-', '/').split('T')[0].replace('-', '/');
+// //"2016/02/18"
+
+// new Date().toLocaleString().split(',')[0]
+// //"2/18/2016"
+
+
+
+  </script>
+  
+</body>
+</html>
