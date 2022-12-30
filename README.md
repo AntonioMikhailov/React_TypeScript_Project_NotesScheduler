@@ -1,4 +1,4 @@
-# React_Redux_RTQ_Project_Movies-Search
+# React_TypeScript_Project_NotesScheduler/
  
 ![alt text](https://github.com/AntonioMikhailov/AntonioMikhailov/blob/main/assets/notes.jpg)
 ## Задача
